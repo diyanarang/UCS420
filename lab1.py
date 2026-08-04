@@ -33,13 +33,19 @@ for x7 in range(1,11):
 for x9 in range(1,11):
     print(x9*9)
 
-number=int(input("enter number: "))
-sum_n=0
-for n in range(1,number+1):
-    sum_n+=n
-print(sum_n)
+#number=int(input("enter number: "))
+#sum_n=0
+#for n in range(1,number+1):
+#    sum_n+=n
+#print(sum_n)
+
 #table3
 print("table of 3: ")
 while a<=10:
     print(3*a)
     a+=1
+
+print(*range(-10,-20,-2))
+
+lst = [10,20,30]
+print(*lst)
